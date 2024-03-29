@@ -37,7 +37,7 @@ const Search = () => {
     <div>
       <h1>Weather App</h1>
       <input
-        id="cityInput"
+        type="text"
         placeholder="Enter city name"
         value={cityName}
         onChange={handleChange}
