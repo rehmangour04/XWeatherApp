@@ -37,10 +37,11 @@ const Search = () => {
     <div>
       <h1>Weather App</h1>
       <input
+        id="cityInput"
         placeholder="Enter city name"
         value={cityName}
         onChange={handleChange}
-      ></input>
+      />
       <button onClick={handleSearch}>Search</button>
       {loading && <p>Loading data....</p>}
       {error && <p>{error}</p>}
